@@ -1,5 +1,5 @@
 # 15 "src/ocaml/typer/preprocess/lexer_raw.mll"
-
+ 
 open Std
 open Misc
 open Lexing
@@ -2785,7 +2785,7 @@ and __ocaml_lex_skip_sharp_bang_rec state lexbuf __ocaml_lex_state =
 ;;
 
 # 685 "src/ocaml/typer/preprocess/lexer_raw.mll"
-
+ 
   type comment = string * Location.t
 
   (* preprocessor support not implemented, not compatible with monadic
